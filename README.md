@@ -16,3 +16,10 @@ GET on a concrete user will return the current balance of that user: RESTExample
 POST : add a new purchase for a new user that will be identified by its email. It expects a JSON object
 with the following format:
 {"email":"jr@gmail.com","first_name":"John","last_name":"Rambo","amount":300}
+
+
+http://ap1-myproject.127.0.0.1.nip.io/RESTExample/
+
+http://ap1-myproject.127.0.0.1.nip.io/RESTExample/api/
+
+http://ap1-myproject.127.0.0.1.nip.io/RESTExample/api/purchase
