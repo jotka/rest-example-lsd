@@ -18,6 +18,18 @@ with the following format:
 {"email":"jr@gmail.com","first_name":"John","last_name":"Rambo","amount":300}
 
 
+
+##create application on Openshift:
+
+    oc new-app wildfly:13.0~https://github.com/jotka/rest-example-lsd.git
+
+    oc logs -f bc/rest-example-lsd
+    
+    oc get services
+    
+    oc expose svc/rest-example-lsd 
+
+
 http://ap1-myproject.127.0.0.1.nip.io/RESTExample/
 
 http://ap1-myproject.127.0.0.1.nip.io/RESTExample/api/
