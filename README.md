@@ -29,9 +29,10 @@ with the following format:
     
     oc expose svc/rest-example-lsd 
 
+http://rest-example-lsd-myproject.127.0.0.1.nip.io
 
-http://ap1-myproject.127.0.0.1.nip.io/RESTExample/
+http://rest-example-lsd-myproject.127.0.0.1.nip.io/RESTExample/
 
-http://ap1-myproject.127.0.0.1.nip.io/RESTExample/api/
+http://rest-example-lsd-myproject.127.0.0.1.nip.io/RESTExample/api/
 
-http://ap1-myproject.127.0.0.1.nip.io/RESTExample/api/purchase
+http://rest-example-lsd-myproject.127.0.0.1.nip.io/RESTExample/api/purchase/
