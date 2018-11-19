@@ -30,6 +30,8 @@ with the following format:
     oc get services
     
     oc expose svc/rest-example-lsd 
+    
+    oc get routes
 
 http://rest-example-lsd-myproject.127.0.0.1.nip.io
 
