@@ -25,6 +25,8 @@ with the following format:
 
     oc logs -f bc/rest-example-lsd
     
+    oc get builds
+    
     oc get services
     
     oc expose svc/rest-example-lsd 
